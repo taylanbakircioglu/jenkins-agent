@@ -3,7 +3,7 @@ FROM jenkins/jnlp-slave:latest
 
 USER root
 
-RUN apk add docker
+RUN apk add --update docker
 
 USER jenkins
 
