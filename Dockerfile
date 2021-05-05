@@ -1,5 +1,5 @@
 #jenkins agent with docker
-FROM jenkins/jnlp-slave:4.3-9-alpine
+FROM jenkins/jnlp-slave:4.6-1-alpine
 
 USER root
 
